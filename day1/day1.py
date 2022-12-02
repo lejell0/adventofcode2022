@@ -29,5 +29,5 @@ def count_gold(file):
     ans = totals[0] + totals[1] + totals[2]
     print(f"Sum of top 3 is {ans}")
 
-with open('output.txt') as f:
+with open('input.txt') as f:
     count_gold(f)
