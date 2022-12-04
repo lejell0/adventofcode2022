@@ -1,5 +1,3 @@
-from functools import reduce
-
 def count_gold(file):
     lines = f.read().split("\n\n")
 

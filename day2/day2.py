@@ -1,5 +1,3 @@
-from functools import reduce
-
 def rps(file):
     lines = f.readlines()
     points = 0
