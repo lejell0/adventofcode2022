@@ -2,8 +2,6 @@ const fs = require('fs')
 
 const input = fs.readFileSync('input.txt').toString()
 
-let test = ['abcdefg']
-
 const checkRepeats = (subStr) => {
     return /(.).*\1/.test(subStr);
 }
@@ -20,7 +18,6 @@ const findMarker = (str) => {
         else {
             return counter++;
         }
-
     }
 }
 
@@ -36,7 +33,6 @@ const findMsg = (str) => {
         else {
             return chrCounter++;
         }
-
     }
 }
 
